@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="918a07c8-b587-4744-9f28-819af0048ffb" name="Changes" comment="added test class">
-      <change afterPath="$PROJECT_DIR$/src/Lab1/lab.java" afterDir="false" />
+    <list default="true" id="918a07c8-b587-4744-9f28-819af0048ffb" name="Changes" comment="Added lab 1">
+      <change afterPath="$PROJECT_DIR$/src/Lab1/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/pkg/BBoard.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/pkg/BBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/pkg/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/pkg/Reply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/pkg/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/pkg/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/pkg/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab1/user.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab1/lab.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +33,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Super_Poole23-main.zip/Super_Poole23-main/001_Review/base_code/main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Super_Poole23-main.zip/Super_Poole23-main/001_Review/base_code/pkg/BBoard.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Super_Poole23-main.zip/Super_Poole23-main/001_Review/base_code/pkg/User.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/universal base code/starter.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -34,12 +50,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bryso\IdeaProjects\CompletedLabs\src\Lab1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab1.Main" />
+      <module name="CompletedLabs" />
+      <option name="PROGRAM_PARAMETERS" value="src/Lab1/user.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660841775545</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added lab 1">
+      <created>1660842254936</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660842254936</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,6 +116,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added test class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added test class" />
+    <MESSAGE value="Added lab 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added lab 1" />
   </component>
 </project>
