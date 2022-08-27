@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="918a07c8-b587-4744-9f28-819af0048ffb" name="Changes" comment="Added lab 1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="918a07c8-b587-4744-9f28-819af0048ffb" name="Changes" comment="I can't get full line reply to work, but the rest works properly">
       <change beforePath="$PROJECT_DIR$/src/Lab1/pkg/BBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/pkg/BBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab1/pkg/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/pkg/Message.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661576201382</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="I can't get full line reply to work, but the rest works properly">
+      <created>1661581477658</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661581477658</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +120,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added test class" />
     <MESSAGE value="Added lab 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added lab 1" />
+    <MESSAGE value="I can't get full line reply to work, but the rest works properly" />
+    <option name="LAST_COMMIT_MESSAGE" value="I can't get full line reply to work, but the rest works properly" />
   </component>
 </project>

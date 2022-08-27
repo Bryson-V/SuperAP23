@@ -182,7 +182,7 @@ Scanner inp=new Scanner(System.in);
     // Note: When the user chooses to return to the menu, do not call run() again - just return fro mthis addReply function.
     private void addReply(){
         System.out.print("Enter message ID");
-        int msgid=inp.nextInt();
+        int msgid=Integer.parseInt(inp.nextLine());
         if(msgid> messages.size()+1 || msgid<-1) {
             System.out.print("Please try again");
             addReply();
@@ -192,7 +192,7 @@ Scanner inp=new Scanner(System.in);
         else
         {
             System.out.print("Enter body message");
-            String newpass=inp.next();
+            String newpass=inp.nextLine();
             Message temp=new Reply(cuser,"Re: "+messages.get(msgid-1).getSubject(),newpass,msgid+1);
             messages.add(temp);
             messages.get(msgid-1).addChild(temp);
