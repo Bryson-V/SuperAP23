@@ -32,9 +32,13 @@ public class Message {
 
     // Note: Each indentation increment represents 2 spaces. e.g. if indentation ==  1, the reply should be indented 2 spaces,
     // if it's 2, indent by 4 spaces, etc.
-    public void print(int indentation){
+    public void print(int indentation) {
+        System.out.println(person+" "+subject+" "+body+" "+number);
+        for (int i = 0; i < indentation+1; i++)
+            System.out.print("  ");
+        for (int i = 0; i < childlist.size(); i++)
+            childlist.get(i).print(indentation + 1);
     }
-
     // Default function for inheritance
     public boolean isReply(){
     return true;
@@ -42,12 +46,12 @@ public class Message {
 
     // Returns the subject String
     public String getSubject(){
-    return "";
+    return subject;
     }
 
     // Returns the ID
     public int getId(){
-    return 1;
+    return number;
     }
 
     // Adds a child pointer to the parent's childList.

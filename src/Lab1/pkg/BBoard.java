@@ -6,10 +6,11 @@ import java.io.*;
 public class BBoard {		// This is your main file that connects all classes.
     // Think about what your global variables need to be.
     String title;
-    Scanner inp=new Scanner(System.in);
+//    Scanner inp=new Scanner(System.in);
+Scanner inp=new Scanner(System.in);
     ArrayList<User> users=new ArrayList<User>();
     ArrayList<Message> messages=new ArrayList<Message>();
-    String cuser;
+    String cuser="";
     String cpass;
     int usrnum;
     // Default constructor that creates a board with a defaulttitle, empty user and message lists,
@@ -17,6 +18,7 @@ public class BBoard {		// This is your main file that connects all classes.
     public BBoard() {
     title=new String("Title");
     }
+
 
     // Same as the default constructor except it sets the title of the board
     public BBoard(String ttl) {
@@ -49,6 +51,7 @@ public class BBoard {		// This is your main file that connects all classes.
     // If not, it will keep asking until a match is found or the user types 'q' or 'Q' as username to quit
     // When the users chooses to quit, sayu "Bye!" and return from the login function
     public void login(){
+        Scanner inp=new Scanner(System.in);
         loop: while(true)
         {
             System.out.print("Enter username here");
@@ -63,7 +66,7 @@ public class BBoard {		// This is your main file that connects all classes.
             {
                 boolean x=users.get(i).check(usr,pss);
                 if(x) {
-                    System.out.print("Welcome " + usr);
+                    System.out.println("Welcome " + usr);
                     cuser=usr;
                     cpass=pss;
                     usrnum=i;
@@ -87,28 +90,40 @@ public class BBoard {		// This is your main file that connects all classes.
     public void run(){
 
         login();
+        if(!cuser.equals("")){
+        Scanner read=new Scanner(System.in);
         while(true)
         {
-            String ans=inp.nextLine();
-            if(ans.equals("D") || ans.equals("d"))
+            System.out.print(" D for displaying messages \n N for adding topic \n R for adding reply \n P for password\n Q for quit");
+            String ans=read.next();
+            if(ans.equals("D") || ans.equals("d")) {
                 display();
-            if(ans.equals("N") || ans.equals("n"))
+            }
+            if(ans.equals("N") || ans.equals("n")) {
                 addTopic();
-            if(ans.equals("R") || ans.equals("r"))
+            }
+            if(ans.equals("R") || ans.equals("r")) {
                 addReply();
-            if(ans.equals("P") || ans.equals("p"))
+            }
+            if(ans.equals("P") || ans.equals("p")) {
                 setPassword();
-            if(ans.equals("Q") || ans.equals("q"))
+            }
+            if(ans.equals("Q") || ans.equals("q")) {
                 break;
+            }
 
-        }
+        }}
     }
 
     // Traverse the BBoard's message list, and invote the print function on Topic objects ONLY
     // It will then be the responsibility of the Topic object to invoke the print function recursively on its own replies
     // The BBoard display function will ignore all reply objects in its message list
     private void display(){
-
+        for(int i=0;i<messages.size();i++)
+        {
+            if(!messages.get(i).isReply())
+                messages.get(i).print(0);
+        }
     }
 
 
@@ -172,15 +187,15 @@ public class BBoard {		// This is your main file that connects all classes.
             System.out.print("Please try again");
             addReply();
         }
-        else if(msgid==-1)
-            run();
+        else if(msgid==-1){
+        }
         else
         {
             System.out.print("Enter body message");
-            String body=inp.nextLine();
-            Message temp=new Reply(cuser,"Re: "messages.get(msgid-1),body,msgid+1);
+            String newpass=inp.next();
+            Message temp=new Reply(cuser,"Re: "+messages.get(msgid-1).getSubject(),newpass,msgid+1);
             messages.add(temp);
-            temp.addChild(temp);
+            messages.get(msgid-1).addChild(temp);
         }
 
     }
@@ -196,8 +211,10 @@ public class BBoard {		// This is your main file that connects all classes.
         while (true) {
             System.out.print("Please enter your old password:(c to cancel) ");
             String oldpass = inp.nextLine();
-            if(oldpass.equals("c") || oldpass.equals("C"))
+            if(oldpass.equals("c") || oldpass.equals("C")) {
+                inp.close();
                 break;
+            }
             users.get(usrnum).check(cuser, oldpass);
             System.out.print("Please enter a new password(can not be c or C");
             if(oldpass.equals("c") || oldpass.equals("C"))
