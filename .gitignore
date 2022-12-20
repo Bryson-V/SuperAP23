@@ -14,7 +14,8 @@ out/
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
-
+.idea
+Readme.md
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
