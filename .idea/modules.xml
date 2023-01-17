@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/CompletedLabs.iml" filepath="$PROJECT_DIR$/CompletedLabs.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/.idea/SuperAP23.iml" filepath="$PROJECT_DIR$/.idea/SuperAP23.iml" />
->>>>>>> da5e2530f0d3416976fd67134511fdaee8f4b1f0
     </modules>
   </component>
 </project>
