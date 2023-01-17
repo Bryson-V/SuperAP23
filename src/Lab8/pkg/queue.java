@@ -11,7 +11,7 @@ public class queue {
     /*
         Postcondition: The top will be null.
     */
-    public Queue() {
+    public queue() {
         head=null;
         tail=null;
     }
