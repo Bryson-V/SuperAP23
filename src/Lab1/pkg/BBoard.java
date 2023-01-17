@@ -109,6 +109,7 @@ Scanner inp=new Scanner(System.in);
                 setPassword();
             }
             if(ans.equals("Q") || ans.equals("q")) {
+                System.out.print("Bye!");
                 break;
             }
 
@@ -189,7 +190,7 @@ Scanner inp=new Scanner(System.in);
         }
         else if(msgid==-1){
         }
-        else
+
         {
             System.out.print("Enter body message");
             String newpass=inp.nextLine();

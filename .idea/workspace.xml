@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="918a07c8-b587-4744-9f28-819af0048ffb" name="Changes" comment="I can't get full line reply to work, but the rest works properly">
+    <list default="true" id="918a07c8-b587-4744-9f28-819af0048ffb" name="Changes" comment="I got everything to work as intended">
+      <change afterPath="$PROJECT_DIR$/src/Lab2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab2/pkg/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab5/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab5/pkg/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/pkg/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/pkg/SinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab7/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab7/pkg/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab7/pkg/stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab8/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab8/pkg/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab8/pkg/queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Palindrome/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Palindrome/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Parenthesis/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toRomanNumeral/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab1/pkg/BBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/pkg/BBoard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,18 +33,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Super_Poole23-main.zip/Super_Poole23-main/001_Review/base_code/main.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Super_Poole23-main.zip/Super_Poole23-main/001_Review/base_code/pkg/BBoard.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Super_Poole23-main.zip/Super_Poole23-main/001_Review/base_code/pkg/User.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Desktop/universal base code/starter.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -43,16 +56,52 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/bryso/IdeaProjects/CompletedLabs/src&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bryso\IdeaProjects\CompletedLabs\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\bryso\IdeaProjects\CompletedLabs\src\Lab1" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Lab8.pkg" />
+      <recent name="Lab6.pkg" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Lab 7">
+    <configuration name="Lab 5" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Lab5.main" />
+      <module name="CompletedLabs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab 6" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Lab6.main" />
+      <module name="CompletedLabs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab 7" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Lab7.main" />
+      <module name="CompletedLabs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Lab2.Main" />
+      <module name="CompletedLabs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab1.Main" />
       <module name="CompletedLabs" />
       <option name="PROGRAM_PARAMETERS" value="src/Lab1/user.txt" />
@@ -60,11 +109,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
+    <configuration name="Palindrome" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Palindrome.Main" />
+      <module name="CompletedLabs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Parenthesis" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Parenthesis.Main" />
+      <module name="CompletedLabs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanNumeral" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="toRomanNumeral.main" />
+      <module name="CompletedLabs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Parenthesis" />
+      <item itemvalue="Application.Lab2" />
+      <item itemvalue="Application.Lab 5" />
+      <item itemvalue="Application.Lab 6" />
+      <item itemvalue="Application.RomanNumeral" />
+      <item itemvalue="Application.Lab 7" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Palindrome" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -103,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661581477658</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="I got everything to work as intended">
+      <created>1661581786432</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661581786432</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +203,17 @@
     <MESSAGE value="added test class" />
     <MESSAGE value="Added lab 1" />
     <MESSAGE value="I can't get full line reply to work, but the rest works properly" />
-    <option name="LAST_COMMIT_MESSAGE" value="I can't get full line reply to work, but the rest works properly" />
+    <MESSAGE value="I got everything to work as intended" />
+    <option name="LAST_COMMIT_MESSAGE" value="I got everything to work as intended" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
